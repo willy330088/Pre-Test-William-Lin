@@ -12,7 +12,7 @@ const fibonnacci = (position) => {
 
     return position === 0 ? num1 : num2;
   } else {
-    console.log('Please enter an appropriate number');
+    console.log('Please enter an appropriate position number');
     return null;
   }
 };
