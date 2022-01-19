@@ -13,7 +13,7 @@ class Stack {
   }
 
   push(value) {
-    let newNode = new Node(value);
+    const newNode = new Node(value);
     if (!this.first) {
       this.first = newNode;
       this.last = newNode;
@@ -27,7 +27,7 @@ class Stack {
 
   pop() {
     if (!this.first) return null;
-    let temp = this.first;
+    const temp = this.first;
     if (this.first === this.last) {
       this.last = null;
     }
